@@ -295,3 +295,6 @@ li {
 .example-list li {
   line-height: 1.8em;
 }
+.p-small {
+  font-size: 1em;
+}
