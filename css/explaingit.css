@@ -16,9 +16,8 @@ a.openswitch.selected {
 }
 
 .command-list, .example-list {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px 0;
+    margin: 10px -10px;
+    padding: 10px 15px 15px;
     background-color: #f3f3f3;
 }
 
@@ -287,4 +286,12 @@ ul {
 .tagline {
   font-size: 30px;
 }
-
+.padding {
+    height: 11px;
+}
+li {
+  line-height: 1.5em;
+}
+.example-list li {
+  line-height: 1.8em;
+}
