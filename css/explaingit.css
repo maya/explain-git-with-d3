@@ -40,7 +40,7 @@ a.openswitch.selected {
 }
 
 span.cmd {
-    background-color: #222222;
+    background-color: #444;
     color: #FFFFFF;
     font-family: Courier New;
     padding: 0 0.2em;
@@ -271,8 +271,19 @@ p {
 }
 a {
   color: #333;
-}
-a {
   text-decoration: none;
-  border-bottom: 2px solid #6deb90;
+  border-bottom: 2px solid rgba(109, 235, 144, .5);
+}
+a:hover, a.openswitch.selected {
+  border-bottom: 2px solid rgba(109, 235, 144, 1);
+  color: #60d17f;  
+}
+.twocol.last > ul {
+    list-style: none;
+}
+.title {
+  color: #60d17f;
+}
+.tagline {
+  font-size: 30px;
 }
