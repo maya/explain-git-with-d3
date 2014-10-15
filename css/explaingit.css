@@ -231,7 +231,6 @@ g.branch-tag > text {
 	text-anchor: middle;
 	fill: #000;
 	font-size: 11px;
-	font-family: Arial;
 }
 
 g.head-tag > rect {
@@ -253,6 +252,7 @@ g.head-tag > text {
 
 
 body {
+  border-top: 10px solid #60d17f;
   color: #555;
   font-family: 'Source Sans Pro', sans-serif;
   margin: 0 auto;
@@ -278,7 +278,7 @@ a:hover, a.openswitch.selected {
   border-bottom: 2px solid rgba(109, 235, 144, 1);
   color: #60d17f;  
 }
-.twocol.last > ul {
+ul {
     list-style: none;
 }
 .title {
@@ -287,3 +287,4 @@ a:hover, a.openswitch.selected {
 .tagline {
   font-size: 30px;
 }
+
