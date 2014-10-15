@@ -251,3 +251,16 @@ g.head-tag > text {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+/* custom styles */
+
+
+body {
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  position: relative;
+}
