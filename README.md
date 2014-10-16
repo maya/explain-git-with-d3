@@ -1,13 +1,16 @@
-﻿explain-git-with-d3
+gitvisual
 ===================
 
-Use D3 to visualize simple git branching operations.
+# What is gitvisual?
+gitvisual is a webpage that helps you learn & understand how to do basic git operations by using visual and interactive examples.
 
-This simple project is designed to help people understand some basic git concepts visually.
+You can view it online here: [gitvisual.com](http://gitvisual.com)
 
-This is my first attempt at using both SVG and D3. I hope it is helpful to you.
+# Background
+This project repackages [onlywei](http://github.com/onlywei)'s visualizations with new styling, changes to the wording, and a fresh design in order to make it  more accessibel and useful to git newbies!
 
-I upload the contents of this repository via FTP every once in a while to: http://www.wei-wang.com/ExplainGitWithD3/
-so you can just visit that site to use an (almost) up to date version.
+## Who is working on this??
+[Maya](http://github.com/maya) and [Drew](http://github.com/drewrwilson)
 
-UPDATE: the page can now also be accessed via: http://onlywei.github.io/explain-git-with-d3/
+# Tools used
+This site uses D3.js for the visualization and is hosted on github.io pages.
