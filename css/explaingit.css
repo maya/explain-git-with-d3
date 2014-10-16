@@ -16,8 +16,8 @@ a.openswitch.selected {
 }
 
 .command-list, .example-list {
-    margin: 10px -10px;
-    padding: 10px 15px 15px;
+    margin: 10px 0;
+    padding: 11px 15px 15px;
     background-color: #f3f3f3;
 }
 
@@ -249,12 +249,13 @@ g.head-tag > text {
 
 /* custom styles */
 
-
+*, *:after, *:before {
+  box-sizing: border-box;
+}
 body {
   border-top: 10px solid #60d17f;
   color: #555;
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 0 auto;
 }
 .container {
   margin: 0 auto;
@@ -293,8 +294,12 @@ li {
   line-height: 1.5em;
 }
 .example-list li {
-  line-height: 1.8em;
+  padding-bottom: 5px;
+}
+.example-list li:last-child {
+  padding-bottom: 0;
 }
 .p-small {
   font-size: 1em;
+  text-align: center;
 }
