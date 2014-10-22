@@ -307,3 +307,7 @@ li {
   line-height: 1.5em;
   text-align: center;
 }
+.logo-img {
+  max-width: 240px;
+  padding-bottom: 20px;
+}
