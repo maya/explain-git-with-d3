@@ -4,7 +4,7 @@ body, html {
     height: 100%;
 }
 
-.intro p, .concept-container p {
+.intro p, .concept-container p, .intro-p, .note {
     padding-top: 10px;
 }
 
